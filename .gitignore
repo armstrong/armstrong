@@ -1,0 +1,8 @@
+*.pyc
+*~
+*.swp
+coverage/*
+build/*
+mydatabase
+MANIFEST
+dist/
