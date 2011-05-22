@@ -21,6 +21,7 @@ setup(
     install_requires=[
         "armstrong.core.arm_content",
         "armstrong.core.arm_sections",
+        "armstrong.core.arm_wells",
         "armstrong.apps.articles",
         "armstrong.apps.content",
     ],
