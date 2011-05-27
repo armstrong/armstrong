@@ -24,6 +24,7 @@ setup(
         "armstrong.core.arm_wells",
         "armstrong.apps.articles",
         "armstrong.apps.content",
+        "armstrong.apps.events",
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
