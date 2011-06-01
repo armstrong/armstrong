@@ -42,6 +42,9 @@ structure for you.  Create a new project like this::
     $ armstrong init mysite
     armstrong initialized!
 
+Armstrong Project Structure
+'''''''''''''''''''''''''''
+
 The following files are created in the ``mysite`` directory::
 
     |~config/
@@ -83,6 +86,29 @@ templates.  It contains a simple ``index.html`` that is loaded on a request to
 The ``wsgi.py`` provides a basic WSGI module for running your project.  It is
 configured to run using the ``config.development`` settings, so you must adjust
 it prior to running in production.
+
+*Note*: You do not have to use the Armstrong project layout.  You can utilize
+all of Armstrong's components inside an existing Django project.  These are
+here simply to help get you started.
+
+
+Next Steps
+''''''''''
+Once you have the project created and configured (remember, you need to setup
+your database just like any other Django project), you've got one final step.
+You need to install the requirements file as there are packages that Armstrong
+relies on that need to be installed from GitHub.
+
+::
+
+    $ cd mysite
+    $ pip install -r requirements/project.txt
+
+Once pip has finished, you can test out everything by running ``armstrong
+runserver`` from inside your project.  When you load the server, you should
+see the welcome page.
+
+Congrats, you're now setup and ready to start developing on Armstrong.
 
 
 Versions
