@@ -30,6 +30,8 @@ either cloning or downloading a tarball.
 Once obtained, switch into the directory of the repository (or snapshot if a
 tarball was downloaded) and tell pip to install it::
 
+    $ git clone git://github.com/armstrongcms/armstrong.git
+    ... a few lines of output from Git ...
     $ pip install .
 
 Creating an Armstrong project
