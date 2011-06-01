@@ -46,13 +46,13 @@ structure for you.  Create a new project like this::
 The following files are created in the ``mysite`` directory::
 
     |~config/
-    | `-defaults.py
-    | `-development.py
-    | `-__init__.py
-    | `-production.py
+    | |-defaults.py
+    | |-development.py
+    | |-__init__.py
+    | |-production.py
     | `-urls.py
     |~requirements/
-    | `-development.txt
+    | |-development.txt
     | `-project.txt
     |~templates/
     | `-index.html
