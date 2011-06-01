@@ -20,9 +20,6 @@ For the latest released version of Armstrong, use `pip`_ to install it from
 
     $ pip install armstrong
 
-Note that PyPI only has official releases.  At this point in time there are no
-official releases.
-
 
 Development Releases
 ''''''''''''''''''''
