@@ -6,7 +6,7 @@ import subprocess
 if os.path.exists("MANIFEST"):
     os.unlink("MANIFEST")
 
-VERSION = ("11", "06", "0", "beta", "1")
+VERSION = ("11", "06", "0", "beta", "2")
 
 setup(
     name='armstrong',
