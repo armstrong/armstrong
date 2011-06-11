@@ -6,7 +6,7 @@ import subprocess
 if os.path.exists("MANIFEST"):
     os.unlink("MANIFEST")
 
-VERSION = ("11", "06", "0", "beta", "2")
+VERSION = ("11", "06", "0", "beta", "2", "1")
 
 setup(
     name='armstrong',
@@ -15,7 +15,7 @@ setup(
     long_description=open("README.rst").read(),
     author='Bay Citizen & Texas Tribune',
     author_email='dev@armstrongcms.org',
-    url='http://github.com/armstrongcms/armstrong/',
+    url='http://github.com/armstrong/armstrong/',
     packages=["armstrong", ],
     namespace_packages=["armstrong", ],
     install_requires=[
