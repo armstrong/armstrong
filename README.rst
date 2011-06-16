@@ -30,7 +30,7 @@ either cloning or downloading a tarball.
 Once obtained, switch into the directory of the repository (or snapshot if a
 tarball was downloaded) and tell pip to install it::
 
-    $ git clone git://github.com/armstrongcms/armstrong.git
+    $ git clone git://github.com/armstrong/armstrong.git
     ... a few lines of output from Git ...
     $ pip install .
 
@@ -117,7 +117,7 @@ Armstrong uses date-based versions for this main ``armstrong`` package.  The
 current release is ``11.06.beta.1``.  For more information about how versions
 are handled in Armstrong, see the `Versions`_ page on the wiki.
 
-.. _Versions: https://github.com/armstrongcms/armstrong/wiki/Versions
+.. _Versions: https://github.com/armstrong/armstrong/wiki/Versions
 
 
 
@@ -210,11 +210,11 @@ To follow development, be sure to join the `Google Group`_.
 .. _Google Group: http://groups.google.com/group/armstrongcms
 .. _pip: http://www.pip-installer.org/
 .. _PyPI: http://pypi.python.org/pypi
-.. _GitHub: http://github.com/armstrongcms/armstrong/
-.. _armstrong.cli: http://github.com/armstrongcms/armstrong.cli
-.. _armstrong.core.arm_content: http://github.com/armstrongcms/armstrong.core.arm_content
-.. _armstrong.core.arm_sections: http://github.com/armstrongcms/armstrong.core.arm_sections
-.. _armstrong.core.arm_wells: http://github.com/armstrongcms/armstrong.core.arm_wells
-.. _armstrong.apps.articles: http://github.com/armstrongcms/armstrong.apps.articles
-.. _armstrong.apps.content: http://github.com/armstrongcms/armstrong.apps.content
-.. _armstrong.apps.events: http://github.com/armstrongcms/armstrong.apps.events
+.. _GitHub: http://github.com/armstrong/armstrong/
+.. _armstrong.cli: http://github.com/armstrong/armstrong.cli
+.. _armstrong.core.arm_content: http://github.com/armstrong/armstrong.core.arm_content
+.. _armstrong.core.arm_sections: http://github.com/armstrong/armstrong.core.arm_sections
+.. _armstrong.core.arm_wells: http://github.com/armstrong/armstrong.core.arm_wells
+.. _armstrong.apps.articles: http://github.com/armstrong/armstrong.apps.articles
+.. _armstrong.apps.content: http://github.com/armstrong/armstrong.apps.content
+.. _armstrong.apps.events: http://github.com/armstrong/armstrong.apps.events
