@@ -207,7 +207,7 @@ To follow development, be sure to join the `Google Group`_.
 .. _Bay Citizen: http://www.baycitizen.org/
 .. _John S. and James L. Knight Foundation: http://www.knightfoundation.org/
 .. _Texas Tribune: http://www.texastribune.org/
-.. _Google Group: http://groups.google.com/group/armstrong
+.. _Google Group: http://groups.google.com/group/armstrongcms
 .. _pip: http://www.pip-installer.org/
 .. _PyPI: http://pypi.python.org/pypi
 .. _GitHub: http://github.com/armstrong/armstrong/
