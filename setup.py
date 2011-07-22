@@ -21,6 +21,7 @@ setup(
     install_requires=[
         "armstrong.cli>=0.3.5",
         "armstrong.core.arm_content>=0.3.1,<0.4",
+        "armstrong.core.arm_layout>=0.1.0",
         "armstrong.core.arm_sections>=0.1.2,<0.2",
         "armstrong.core.arm_wells>=0.1.0,<0.2",
         "armstrong.apps.articles>=0.1.0,<0.2",
