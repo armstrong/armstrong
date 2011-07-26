@@ -15,6 +15,11 @@ Getting Started
 
 Installation
 """"""""""""
+If you're installing Armstrong within a `virtualenv`_ (which you should be),
+you'll have better luck if you create your virtualenv with the ``--distribute``
+flag. If you're not using virtualenv, your setuptools installation will be
+replaced with `distribute`_, which may cause problems. Use virtualenv.
+
 For the latest released version of Armstrong, use `pip`_ to install it from
 `PyPI`_ like this::
 
@@ -218,3 +223,5 @@ To follow development, be sure to join the `Google Group`_.
 .. _armstrong.apps.articles: http://github.com/armstrong/armstrong.apps.articles
 .. _armstrong.apps.content: http://github.com/armstrong/armstrong.apps.content
 .. _armstrong.apps.events: http://github.com/armstrong/armstrong.apps.events
+.. _virtualenv: http://www.virtualenv.org/en/latest/index.html
+.. _distribute: http://pypi.python.org/pypi/distribute
