@@ -17,8 +17,7 @@ Installation
 """"""""""""
 If you're installing Armstrong within a `virtualenv`_ (which you should be),
 you'll have better luck if you create your virtualenv with the ``--distribute``
-flag. If you're not using virtualenv, your setuptools installation will be
-replaced with `distribute`_, which may cause problems. Use virtualenv.
+flag.
 
 For the latest released version of Armstrong, use `pip`_ to install it from
 `PyPI`_ like this::
