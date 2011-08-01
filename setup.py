@@ -24,7 +24,7 @@ setup(
         "armstrong.core.arm_layout>=0.1.0",
         "armstrong.core.arm_sections>=0.2.1",
         "armstrong.core.arm_wells>=0.2",
-        "armstrong.apps.articles>=0.1.0,<0.2",
+        "armstrong.apps.articles>=0.3.1",
         "armstrong.apps.content>=0.1.0,<0.2",
         "armstrong.apps.events>=0.1.2,<0.2",
         "armstrong.hatband>=0.2.0",
