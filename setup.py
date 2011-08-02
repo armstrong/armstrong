@@ -19,7 +19,7 @@ setup(
     packages=["armstrong", ],
     namespace_packages=["armstrong", ],
     install_requires=[
-        "armstrong.cli>=0.3.5",
+        "armstrong.cli>=0.4.0",
         "armstrong.core.arm_content>=0.4.1",
         "armstrong.core.arm_layout>=0.1.0",
         "armstrong.core.arm_sections>=0.2.1",
