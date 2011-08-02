@@ -15,10 +15,6 @@ Getting Started
 
 Installation
 """"""""""""
-If you're installing Armstrong within a `virtualenv`_ (which you should be),
-you'll have better luck if you create your virtualenv with the ``--distribute``
-flag.
-
 For the latest released version of Armstrong, use `pip`_ to install it from
 `PyPI`_ like this::
 
@@ -28,6 +24,13 @@ The latest release is ``11.09.0.alpha.1``.  This is *alpha* software, so please
 keep that in mind while developing on it.  While we are making every effort to
 maintain backwards compatibility between releases while in alpha, things may
 change in ways that break your code.
+
+Note on ``virtualenv``
+''''''''''''''''''''''
+We recommend that you use `virtualenv`_ to isolate Armstrong.  We highly
+recommend that you use the ``--distribute`` flag when creating a virtual
+environment, as that's what we use for testing.  Your results with traditional
+setuptools may vary.
 
 
 Development Releases
