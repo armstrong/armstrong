@@ -27,7 +27,7 @@ setup(
         "armstrong.apps.articles>=0.3.1",
         "armstrong.apps.content>=0.1.0",
         "armstrong.apps.events>=0.1.2,<0.2",
-        "armstrong.hatband>=0.2.0",
+        "armstrong.hatband>=0.3.1",
     ],
     classifiers=[
         'Environment :: Web Environment',
