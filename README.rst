@@ -176,9 +176,20 @@ Changelog
     it adds ``armstrong.hatband`` and ``armstrong.core.arm_layout`` to the
     mix.
 
+    *New Demo Data*
+        Now you can include the ``--demo`` parameter to ``armstrong init`` to
+        use our demo database.  This includes lorem ipsum articles and some
+        default sections.
+
+    *New Layout Code*
+        ``armstrong.core.arm_layout`` introduces the ``{% render_model %}``
+        template tag which handles switching the template used for rendering
+        models.
+
     *Backwards Incompatible Changes*
-        ``armstrong.core.arm_wells`` had all of its display logic moved to the
-        new ``armstrong.core.arm_layout`` app.
+        * ``armstrong.core.arm_wells`` had all of its display logic moved to
+          the new ``armstrong.core.arm_layout`` app.
+        * We've removed ``primary_section`` from ``ContentBase``
 
 ``11.06.0``
     The first generally available release of Armstrong.  It is an unstable,
