@@ -176,6 +176,23 @@ Changelog
     it adds ``armstrong.hatband`` and ``armstrong.core.arm_layout`` to the
     mix.
 
+    *Armstrong Hatband*
+        Every good hat needs a hatband.  Armstrong's Hatband app is the
+        foundation for our enhancements to Django's built-in admin interface.
+        We've got lots planned for it, but there are a couple of things worth
+        calling out specifically.
+
+        *Integration with VisualSearch*
+            Wells now have a much better UI thanks `VisualSearch`_.  This new
+            UI allows you to quickly search through all of your models when
+            attaching a new ``Node`` to a ``Well``.
+
+        *Rich Text Editor*
+            We've added a new ``RichTextWidget`` that allows you to easily
+            configure the rich-text editor of your choice and have all of the
+            admin fields across Armstrong switch to using it.  We're shipping
+            with `CKEditor`_ support built-in.
+
     *New Demo Data*
         Now you can include the ``--demo`` parameter to ``armstrong init`` to
         use our demo database.  This includes lorem ipsum articles and some
@@ -194,6 +211,7 @@ Changelog
 ``11.06.0``
     The first generally available release of Armstrong.  It is an unstable,
     developer preview.
+
 
 Components
 ----------
@@ -305,5 +323,7 @@ To follow development, be sure to join the `Google Group`_.
 .. _armstrong.apps.content: http://github.com/armstrong/armstrong.apps.content
 .. _armstrong.apps.events: http://github.com/armstrong/armstrong.apps.events
 .. _armstrong.hatband: http://github.com/armstrong/armstrong.hatband
+.. _CKEditor: http://ckeditor.com/
 .. _virtualenv: http://www.virtualenv.org/en/latest/index.html
+.. _VisualSearch: http://documentcloud.github.com/visualsearch/
 .. _distribute: http://pypi.python.org/pypi/distribute
