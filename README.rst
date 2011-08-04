@@ -95,6 +95,12 @@ production settings.
 You need to edit the ``settings.development`` and ``settings.production`` to
 configure the database engine you want to use.
 
+You can also use the ``settings.local_development`` and
+``settings.local_production`` modules to store values that are specific to a
+particular box.  You shouldn't include these files in your
+repository---anything that should be shared should go in the appropriate
+settings module.
+
 ``settings.development`` and ``settings.production`` configure you
 ``ROOT_URLCONF`` as either ``urls.development`` or ``urls.production``,
 respectively.  Like their ``settings.*`` counterparts, you can use these for
