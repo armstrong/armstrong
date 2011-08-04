@@ -6,7 +6,7 @@ import subprocess
 if os.path.exists("MANIFEST"):
     os.unlink("MANIFEST")
 
-VERSION = ("11", "09", "0", "alpha", "0")
+VERSION = ("11", "09", "0", "alpha", "1", "alpha", "0")
 
 setup(
     name='armstrong',
@@ -19,15 +19,15 @@ setup(
     packages=["armstrong", ],
     namespace_packages=["armstrong", ],
     install_requires=[
-        "armstrong.cli>=0.3.5",
-        "armstrong.core.arm_content>=0.4",
+        "armstrong.cli>=0.5.0",
+        "armstrong.core.arm_content>=0.5.0",
         "armstrong.core.arm_layout>=0.1.0",
         "armstrong.core.arm_sections>=0.2.1",
-        "armstrong.core.arm_wells>=0.2",
-        "armstrong.apps.articles>=0.1.0,<0.2",
-        "armstrong.apps.content>=0.1.0,<0.2",
+        "armstrong.core.arm_wells>=0.3.0",
+        "armstrong.apps.articles>=0.4.0",
+        "armstrong.apps.content>=0.1.0",
         "armstrong.apps.events>=0.1.2,<0.2",
-        "armstrong.hatband>=0.2.0",
+        "armstrong.hatband>=0.3.1",
     ],
     classifiers=[
         'Environment :: Web Environment',
