@@ -57,8 +57,8 @@ structure for you.  Create a new project like this::
     armstrong initialized!
 
 You can initialize a project using the ``--demo`` parameter to initialize with
-a demo SQLite3 database already set up with.  This provides a working example
-of how you can use Armstrong.
+a demo SQLite3 database already set up.  This provides a working example of how
+you can use Armstrong.
 
 
 Armstrong Project Structure
