@@ -28,7 +28,7 @@ setup(
         "armstrong.apps.articles>=1.1.0,<1.2",
         "armstrong.apps.content>=1.0.1,<1.1",
         "armstrong.apps.images>=1.1.0,<1.2",
-        "armstrong.apps.related_content>=1.0.0,<1.1",
+        "armstrong.apps.related_content>=1.2.0,<1.3",
         "armstrong.hatband>=1.2.1,<1.3",
     ],
     classifiers=[
