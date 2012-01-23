@@ -56,9 +56,9 @@ structure for you.  Create a new project like this::
     $ armstrong init mysite
     armstrong initialized!
 
-You can initialize a project using the ``--demo`` parameter to initialize with
-a demo SQLite3 database already set up.  This provides a working example of how
-you can use Armstrong.
+You can initialize a project using the ``--template=demo`` parameter to
+initialize with a demo SQLite3 database already set up.  This provides a
+working example of how you can use Armstrong.
 
 
 Armstrong Project Structure
@@ -141,11 +141,10 @@ Armstrong relies on that need to be installed from GitHub.
     $ pip install -r requirements/project.txt
 
 After you've configured the database engine and installed the base
-requirements, you're last step is to create the database (you can skip this
-step if you used ``--demo``).  You run ``armstrong syncdb`` which initial the
-database based on the apps listed in your ``INSTALLED_APPS`` setting.  After
-this runs, you will have a database created by Django (for more information on
-``syncdb``, see the `Django docs`_).
+requirements, you're last step is to create the database .  You run ``armstrong
+syncdb`` which initial the database based on the apps listed in your
+``INSTALLED_APPS`` setting.  After this runs, you will have a database created
+by Django (for more information on ``syncdb``, see the `Django docs`_).
 
 .. _Django docs: https://docs.djangoproject.com/en/1.3/ref/django-admin/#django-admin-syncdb
 
@@ -153,8 +152,8 @@ Finally, now that you have all of the dependencies installed and have a
 database, you can test everything out by running ``armstrong runserver`` from
 inside your project.  By default, it listens to the ``localhost`` on port
 ``8000``.  Loading that up should either give you the ``Welcome to Armstrong!``
-page or the demo site, depending on whether you used the ``--demo`` flag when
-called ``armstrong init``.
+page or the demo site, depending on whether you used the ``--template=demo``
+flag when called ``armstrong init``.
 
 Congrats, you're now setup and ready to start developing on Armstrong.
 
@@ -171,7 +170,29 @@ versions are handled in Armstrong, see the `Versions`_ page on the wiki.
 Changelog
 ---------
 
-``11.09.0.alpha.1``
+``11.12.0``
+    This updates the various packages to their current release.
+
+    *Armstrong Hatband*
+        We've updated the wells interface inside Hatband to make it more
+        accessible.
+
+    *Armstrong Images*
+        We now include an ``ImageSet`` for dealing with, as you might have
+        guessed it, sets of ``Image`` models.  Thanks for @pizzapanther at
+        Mouth Watering Media for the contribution.
+
+    *Improved Related Content*
+        We've added better handling of Related Content, a new admin, and new
+        helper fields for dealing with both sides of a related content
+        relationship.
+
+    *Armstrong CLI*
+        We've removed the ``--demo`` flag in favor of ``--template=demo``
+        which provides more flexbility going forward.
+
+
+``11.09.0``
     This updates the various packages to their current release.  In addition,
     it adds ``armstrong.hatband`` and ``armstrong.core.arm_layout`` to the
     mix.
