@@ -1,7 +1,5 @@
-from datetime import datetime
 from distutils.core import setup
 import os
-import subprocess
 
 if os.path.exists("MANIFEST"):
     os.unlink("MANIFEST")
