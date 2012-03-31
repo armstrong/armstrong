@@ -170,6 +170,28 @@ versions are handled in Armstrong, see the `Versions`_ page on the wiki.
 Changelog
 ---------
 
+``12.03.0``
+    This updates the various packages to their current stable releases.
+
+    *Django 1.4 Support*
+        Armstrong now supports Django 1.4 and has maintained backwards
+        compatibility with Django 1.3.1.
+
+    *Armstrong Wells*
+        Wells now support allow empty wells (you must explicitly opt-in to the
+        new styles), provides abstract models for creating custom well models
+        from and allows duplication in the admin.
+
+    *Armstrong Sections*
+        Sections have undergone numerous small enhancements.  They now have a
+        better admin, are more signal friendly, and have support for only
+        showing published items.
+
+    *Armstrong Layouts*
+        The ``utils.render_model`` function now boasts configurable backends so
+        you can customize how models are rendered.
+
+
 ``11.12.0``
     This updates the various packages to their current release.
 
