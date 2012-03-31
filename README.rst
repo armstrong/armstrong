@@ -321,11 +321,6 @@ Included in the 11.09 release are the following components:
 
     See the `armstrong.apps.content`_ repository for more information.
 
-``armstrong.apps.events``
-    An application for creating events and handling RSVPs.
-
-    See the `armstrong.apps.events`_ repository for more information.
-
 ``armstrong.hatband``
     Armstrong's enhanced version of Django's built-in ``django.contrib.admin``
     application.
