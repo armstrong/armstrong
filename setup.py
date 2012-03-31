@@ -22,7 +22,7 @@ setup(
         "armstrong.core.arm_content>=1.3.1,<1.1",
         "armstrong.core.arm_layout>=1.1.1,<1.1",
         "armstrong.core.arm_sections>=1.5.2,<1.6",
-        "armstrong.core.arm_wells>=1.5.1,<1.6",
+        "armstrong.core.arm_wells>=1.6.0,<1.7",
         "armstrong.apps.articles>=1.1.1,<1.2",
         "armstrong.apps.content>=1.0.2,<1.1",
         "armstrong.apps.images>=1.1.1,<1.2",
