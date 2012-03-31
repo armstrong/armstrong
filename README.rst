@@ -191,6 +191,15 @@ Changelog
         The ``utils.render_model`` function now boasts configurable backends so
         you can customize how models are rendered.
 
+    *Related Content*
+        **Backwards Incompatible Changes**: The internal representation of
+        fields have been changed to better reflect what they should.  A full
+        explanation of all changes is available in the
+        `armstrong.apps.related_content README`_.  No database migrations are
+        required for this new code.
+
+        .. _armstrong.apps.related_content: https://github.com/armstrong/armstrong.apps.related_content/#readme
+
 
 ``11.12.0``
     This updates the various packages to their current release.
