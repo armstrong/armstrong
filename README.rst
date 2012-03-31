@@ -170,6 +170,37 @@ versions are handled in Armstrong, see the `Versions`_ page on the wiki.
 Changelog
 ---------
 
+``12.03.0``
+    This updates the various packages to their current stable releases.
+
+    *Django 1.4 Support*
+        Armstrong now supports Django 1.4 and has maintained backwards
+        compatibility with Django 1.3.1.
+
+    *Armstrong Wells*
+        Wells now support allow empty wells (you must explicitly opt-in to the
+        new styles), provides abstract models for creating custom well models
+        from and allows duplication in the admin.
+
+    *Armstrong Sections*
+        Sections have undergone numerous small enhancements.  They now have a
+        better admin, are more signal friendly, and have support for only
+        showing published items.
+
+    *Armstrong Layouts*
+        The ``utils.render_model`` function now boasts configurable backends so
+        you can customize how models are rendered.
+
+    *Related Content*
+        **Backwards Incompatible Changes**: The internal representation of
+        fields have been changed to better reflect what they should.  A full
+        explanation of all changes is available in the
+        `armstrong.apps.related_content README`_.  No database migrations are
+        required for this new code.
+
+        .. _armstrong.apps.related_content: https://github.com/armstrong/armstrong.apps.related_content/#readme
+
+
 ``11.12.0``
     This updates the various packages to their current release.
 
@@ -289,11 +320,6 @@ Included in the 11.09 release are the following components:
     Django apps can build off of.
 
     See the `armstrong.apps.content`_ repository for more information.
-
-``armstrong.apps.events``
-    An application for creating events and handling RSVPs.
-
-    See the `armstrong.apps.events`_ repository for more information.
 
 ``armstrong.hatband``
     Armstrong's enhanced version of Django's built-in ``django.contrib.admin``
