@@ -198,7 +198,7 @@ Changelog
         `armstrong.apps.related_content README`_.  No database migrations are
         required for this new code.
 
-        .. _armstrong.apps.related_content: https://github.com/armstrong/armstrong.apps.related_content/#readme
+        .. _armstrong.apps.related_content README: https://github.com/armstrong/armstrong.apps.related_content/#readme
 
 
 ``11.12.0``
