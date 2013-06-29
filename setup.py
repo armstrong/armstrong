@@ -4,7 +4,7 @@ import os
 if os.path.exists("MANIFEST"):
     os.unlink("MANIFEST")
 
-VERSION = ("12", "03", "1", )
+VERSION = ("13", "06", "0alpha", )
 
 setup(
     name='armstrong',
