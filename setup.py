@@ -28,7 +28,7 @@ setup(
         "armstrong.apps.images>=1.1.1,<1.2",
         "armstrong.apps.related_content>=2.0.1,<2.1",
         "armstrong.esi>=1.1.0,<1.2",
-        "armstrong.hatband>=1.2.4,<1.3",
+        "armstrong.hatband>=1.4,<1.5",
     ],
     classifiers=[
         'Environment :: Web Environment',
